@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grocies</title>
+  <link rel="stylesheet" href="CSSstylings.css">
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="signup-signin">
+        <a href="signup.html">Sign Up</a> | <a href="signin.html">Sign In</a>
+    </div>
+</div>
+
+  <nav>
+    <ul>
+      <div class="logo">Grocies</div>
+      <li><a href="HomePage.html">Home</a></li>
+      <li><a href="AboutUsPage.html">About Us</a></li>
+      <li><a href="OrderPage.html">Order</a></li>
+      <li><a href="#categories">Categories</a></li>
+      <li class="cart"><a href="OrderPage.html"><img src="Images/bg images and icon images/carticon.png" alt="Cart"></a></li>
+    </ul>
+  </nav>
+
+  <div class="search-bar">
+    <input type="text" placeholder="Search">
+    <button type="submit">Search</button>
+  </div>
+
+  <h1 class="heading"> Order Products </h1>
+
+
+  <div class="section-header">Fruits</div>
+    <div class="product-section">
+        <div class="product-grid">
+            <img src="Images/images - fruits/apple.jpg" alt="ProductImage">
+            <h3> Apple </h3>
+            <p class="price">Rs.2200 per kg</p>
+            <input type="number" id="apple" placeholder="Enter quantity" min="0">
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-grid">
+            <img src="Images/images - fruits/banana.jpg" alt="ProductImage">
+            <h3> Banana </h3>
+            <p class="price">Rs.660 per kg</p>
+            <input type="number" id="banana" placeholder="Enter quantity" min="0">
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-grid">
+            <img src="Images/images - fruits/grapes.jpg" alt="ProductImage">
+            <h3> Grapes </h3>
+            <p class="price">Rs.3490 per kg</p>
+            <input type="number" id="grapes" placeholder="Enter quantity" min="0">
+            <button class="add-to-cart">Add to Cart</button>
+        </div><br><br>
+
+        <div class="product-grid">
+            <img src="Images/images - fruits/guava.jpg" alt="ProductImage">
+            <h3> Guava </h3>
+            <p class="price">Rs.250 per kg</p>
+            <input type="number" id="guava" placeholder="Enter quantity" min="0">
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-grid">
+            <img src="Images/images - fruits/mango.jpg" alt="ProductImage">
+            <h3> Mango </h3>
+            <p class="price">Rs.580 per kg</p>
+            <input type="number" id="mango" placeholder="Enter quantity" min="0">
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-grid">
+            <img src="Images/images - fruits/papaya.jpg" alt="ProductImage">
+            <h3> Papaya </h3>
+            <p class="price">Rs.160 per kg</p>
+            <input type="number" id="papaya" placeholder="Enter quantity" min="0">
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="section-header">Vegetables</div>
+    <div class="product-section">
+        <div class="product-grid">
+            <img src="Images/images - vegetables/beetroot - 460.jpg" alt="ProductImage">
+            <h3>Beetroot</h3>
+            <p class="price">Rs.460 per kg</p>
+            <input type="number" id="beetroot" placeholder="Enter kg" min="0">
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-grid">
+            <img src="Images/images - vegetables/cabbage - 140.jpg" alt="ProductImage">
+            <h3>Cabbage</h3>
+            <p class="price">Rs.140 per kg</p>
+            <input type="number" id="cabbage" placeholder="Enter kg" min="0">
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-grid">
+            <img src="Images/images - vegetables/carrot - 200.jpg" alt="ProductImage">
+            <h3>Carrot</h3>
+            <p class="price">Rs.200 per kg</p>
+            <input type="number" id="carrot" placeholder="Enter kg" min="0">
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-grid">
+            <img src="Images/images - vegetables/long beans - 420.jpg" alt="ProductImage">
+            <h3>Long beans</h3>
+            <p class="price">Rs.420 per kg</p>
+            <input type="number" id="long beans" placeholder="Enter kg" min="0">
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-grid">
+            <img src="Images/images - vegetables/tomatoes - 170.jpg" alt="ProductImage">
+            <h3>Tomatoes</h3>
+            <p class="price">Rs.170 per kg</p>
+            <input type="number" id="tomatoes" placeholder="Enter kg" min="0">
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-grid">
+            <img src="Images/images - vegetables/sweet potato - 400.jpg" alt="ProductImage">
+            <h3>Sweet potato</h3>
+            <p class="price">Rs.400 per kg</p>
+            <input type="number" id="sweet potato" placeholder="Enter kg" min="0">
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="section-header">Dairy Products</div>
+    <div class="product-section">
+        <div class="product-grid">
+            <img src="Images/images - dairy products/ambewela yoighurt plain 80ml - 80.jpg" alt="ProductImage">
+            <h3> Ambewela yoighurt </h3>
+            <p class="price">Rs.80</p>
+            <input type="number" id="youghurt" placeholder="Enter quantity" min="0">
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-grid">
+            <img src="Images/images - dairy products/anchor butter salted 100g - 675.jpg" alt="ProductImage">
+            <h3> Anchor butter 100g </h3>
+            <p class="price">Rs.675</p>
+            <input type="number" id="anchor butter" placeholder="Enter quantity" min="0">
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-grid">
+            <img src="Images/images - dairy products/anchor UHT ilk 1l - 560.jpg" alt="ProductImage">
+            <h3> Anchor milk 1l </h3>
+            <p class="price">Rs.560</p>
+            <input type="number" id="anchor milk" placeholder="Enter quantity" min="0">
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-grid">
+            <img src="Images/images - dairy products/ice cream fruit & nut 1l - 810.jpg" alt="ProductImage">
+            <h3> Ice cream fruit & nut 1l </h3>
+            <p class="price">Rs.810</p>
+            <input type="number" id="ice cream" placeholder="Enter quantity" min="0">
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-grid">
+            <img src="Images/images - dairy products/kotmale processed cheese 100g - 490.jpg" alt="ProductImage">
+            <h3> Kotmale processed cheese 100g </h3>
+            <p class="price">Rs.490</p>
+            <input type="number" id="cheese" placeholder="Enter quantity" min="0">
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-grid">
+            <img src="Images/images - dairy products/rich life iced coffe 1000ml - 620.jpg" alt="ProductImage">
+            <h3> Rich life iced coffee 1000ml </h3>
+            <p class="price">Rs.620</p>
+            <input type="number" id="iced coffee" placeholder="Enter quantity" min="0">
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="section-header">Meat and Seafood</div>
+    <div class="product-section">
+        <div class="product-grid">
+            <img src="Images/images - meat and seafood/beef 3200.jpg" alt="ProductImage">
+            <h3>Beef</h3>
+            <p class="price">Rs.3200</p>
+            <input type="number" id="beef" placeholder="Enter kgs" min="0">
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-grid">
+            <img src="Images/images - meat and seafood/chicken - 1980.jpg" alt="ProductImage">
+            <h3>Chicken </h3>
+            <p class="price">Rs.1980</p>
+            <input type="number" id="chicken" placeholder="Enter kgs" min="0">
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-grid">
+            <img src="Images/images - meat and seafood/chicken drumsticks - 500g - 940.jpg" alt="ProductImage">
+            <h3>Chicken drumsticks </h3>
+            <p class="price">Rs.940</p>
+            <input type="number" id="Chicken drumsticks" placeholder="Enter kgs" min="0">
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-grid">
+            <img src="Images/images - meat and seafood/chicken sausages 150g - 880.jpg" alt="ProductImage">
+            <h3>Chicken sausages</h3>
+            <p class="price">Rs.880</p>
+            <input type="number" id="Chicken sausages" placeholder="Enter kgs" min="0">
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-grid">
+            <img src="Images/images - meat and seafood/mackerel 425g - 650.jpg" alt="ProductImage">
+            <h3>Salmon </h3>
+            <p class="price">Rs.650</p>
+            <input type="number" id="salmon" placeholder="Enter kgs" min="0">
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-grid">
+            <img src="Images/images - meat and seafood/shrimp 300g - 2775.jpg" alt="ProductImage">
+            <h3>Shrimp</h3>
+            <p class="price">Rs.2775</p>
+            <input type="number" id="shrimp" placeholder="Enter kgs" min="0">
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="section-header">Baking and Cooking Ingredients</div>
+    <div class="product-section">
+        <div class="product-grid">
+            <img src="Images/images - baking and cooking ingredients/cheese spread pepper 175g - 900.jpg" alt="ProductImage">
+            <h3> Pepper cheese bread</h3>
+            <p class="price">Rs.900</p>
+            <input type="number" id="Pepper cheese bread" placeholder="Enter quantity" min="0">
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-grid">
+            <img src="Images/images - baking and cooking ingredients/chilli powder 400.jpg" alt="ProductImage">
+            <h3> Chilli powder </h3>
+            <p class="price">Rs.400</p>
+            <input type="number" id="chilli powder " placeholder="Enter quantity" min="0">
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-grid">
+            <img src="Images/images - baking and cooking ingredients/coconut milk powder 850.jpg" alt="ProductImage">
+            <h3> Coconut milk powder</h3>
+            <p class="price">Rs.850</p>
+            <input type="number" id="Coconut milk powder" placeholder="Enter quantity" min="0">
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-grid">
+            <img src="Images/images - baking and cooking ingredients/crescent basil pesto 150g - 1240.jpg" alt="ProductImage">
+            <h3> Basil pesto</h3>
+            <p class="price">Rs.1240</p>
+            <input type="number" id="Basil pesto " placeholder="Enter quantity" min="0">
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-grid">
+            <img src="Images/images - baking and cooking ingredients/curry powder 400.jpg" alt="ProductImage">
+            <h3> Curry powder</h3>
+            <p class="price">Rs.400</p>
+            <input type="number" id="Curry powder " placeholder="Enter quantity" min="0">
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-grid">
+            <img src="Images/images - baking and cooking ingredients/whipping cream 100g powder 545.jpg" alt="ProductImage">
+            <h3> Whipping cream powder </h3>
+            <p class="price">Rs.545</p>
+            <input type="number" id="Whipping cream powder" placeholder="Enter quantity" min="0">
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+    
+    <div class="cart-section">
+        <h2>Shopping Cart</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody id="cartItems"></tbody>
+        </table>
+    </div>
+
+        <p id="cartTotalPrice">Total: Rs.0.00</p>
+        
+    <div class="actions">
+        <button id="buyNowButton">Buy Now</button>
+        <button id="addtofav">Add to Favourites</button>
+        <button id="applyfav">Apply Favourites</button>
+    </div>
+    
+    
+
+<footer class="footer">
+    <div class="footer-column">
+      <h4>Grocies</h4>
+      <ul class="social-icons">
+        <li><a href="#"><img src="Images/bg images and icon images/fb.jpg" alt="Facebook"></a></li>
+        <li><a href="#"><img src="Images/bg images and icon images/twitter.png" alt="Twitter"></a></li>
+        <li><a href="https://www.instagram.com/himashii.i?igsh=dTM3N21uMm1rNHhk"><img src="Images/bg images and icon images/instagram.jpeg" alt="Instagram"></a></li>
+        <li><a href="#"><img src="Images/bg images and icon images/lnkdn.jpg" alt="LinkedIn"></a></li>
+      </ul>
+    </div>
+  
+    <div class="footer-column">
+      <h4>Contact Info</h4>
+      <ul class="contact-info">
+        <li> Contact No : +94 713456789 </li>
+        <li> E-mail     : grocies@gmail.com </li>
+      
+      </ul>
+    </div>
+  
+    <div class="footer-column">
+      <h4>Quick Links</h4>
+      <ul class="quick-links">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="order.html">Order</a></li>
+        <li><a href="#categories">Categories</a></li>
+        <li><a href="#">Cart</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

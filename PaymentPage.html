@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grocies</title>
+  <link rel="stylesheet" href="CSSstylings.css">
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="signup-signin">
+        <a href="signup.html">Sign Up</a> | <a href="signin.html">Sign In</a>
+    </div>
+</div>
+
+  <nav>
+    <ul>
+      <div class="logo">Grocies</div>
+      <li><a href="HomePage.html">Home</a></li>
+      <li><a href="AboutUsPage.html">About Us</a></li>
+      <li><a href="OrderPage.html">Order</a></li>
+      <li><a href="#categories">Categories</a></li>
+      <li class="cart"><a href="OrderPage.html"><img src="Images/bg images and icon images/carticon.png" alt="Cart"></a></li>
+    </ul>
+  </nav>
+
+  <div class="search-bar">
+    <input type="text" placeholder="Search">
+    <button type="submit">Search</button>
+  </div>
+
+    <h1 class="heading"> Your order details </h1>
+
+<div class="container">
+    <div class="section order-table">
+        <h2>Your Order</h2>
+        <table id="orderTable">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Unit Price</th>
+                    <th>Total Price</th>
+                </tr>
+            </thead>
+            <tbody id="summaryitems"></tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3" class="cart-total">Total</td>
+                    <td id="orderTotalPrice">0</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <div class="section form-section">
+        <h2>Enter Your Details</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        <label for="address">Delivery Address:</label>
+        <input type="text" id="address" required>
+        <label for="contact number">Contact number:</label>
+        <input type="text" id="contact number" required>
+        <label for="payment">Payment Method:</label>
+        <select id="payment" required>
+            <option value="credit-card">Credit Card</option>
+            <option value="bank-transfer">Bank Transfer</option>
+        </select>
+        <div class="actions">
+            <button id="paynowbutton">Pay here</button>
+        </div>
+    </div>
+</div>
+
+
+<script src="scripts.js"></script>
+</body>
+</html>
